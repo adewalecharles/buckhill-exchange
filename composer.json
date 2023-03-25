@@ -1,0 +1,32 @@
+{
+  "name": "buckhill/exchange",
+  "description": "A simple package that helps you converts your money into any currency",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "buckhill",
+    "exchange",
+    "currency"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Buckhill\\Exchange\\": "src/",
+      "Buckhill\\Exchange\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ogundiran Adewale Charles",
+      "email": "shyprince1@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Buckhill\\Exchange\\Providers\\ExchangeProvider"
+      ]
+    }
+  }
+}
